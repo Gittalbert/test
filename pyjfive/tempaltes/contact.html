@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+<!--模板继承base.html-->
+
+{% block main %}
+
+	{% if error_msg %}
+    	<p>{{ error_msg }}</p>
+	{% endif %}
+
+		<article class="blog-post">
+			<div class="blog-post-body">
+
+					<h3>Fate is responsible for shuffling, but the game of cards is our own!</h3>
+
+				<h7><a href="post.html">QQ交流群</a></h7>
+				<h5>11111121</h5>
+			</div>
+			<div class="blog-post-body">
+
+					<h3>If you shed tears when you miss the sun, you also miss the stars.</h3>
+
+				<h7><a href="post.html">Email</a></h7>
+				<h5>sungeng9527@GMAIL.COM</h5>
+			</div>
+			<div class="blog-post-body">
+
+					<h3>Life is like a watch, you can return to the starting point, they are not yesterday! </h3>
+
+				<h7><a href="post.html">QQ</a></h7>
+				<h5>1432605387</h5>
+			</div>
+
+				<!--<div class="blog-post-text">-->
+				<!---->
+				<!--</div>-->
+		</article>
+
+{% endblock main %}
